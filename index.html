@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/todo.css">
+    <link rel="shortcut icon" href="#">
+    <script src="https://kit.fontawesome.com/e65c242919.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Todo List</h1>
+    <div class="container">
+        <form action="" class="searchItem">
+            <input type="text" placeholder="search todos" id="search">
+        </form>
+        <ul>
+            <li>play mariokart <i class="fas fa-trash-alt"></i></li>
+            <li>make a veggie pie <i class="fas fa-trash-alt"></i></li>
+            <li>buy bread <i class="fas fa-trash-alt"></i></li>
+        </ul>
+        <p>Add New Todos</p>
+        <form class="addItem">
+            <input type="text" id="add">
+            <p id="alert"></p>
+        </form>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.4.0/date_fns.min.js" integrity="sha512-dFliq7icDYYKgAzfaIkDLXai03fseRSPn4QH6T1bwiPdUZu9GIjME3Pnp3Iq+C/o+dW8mgv/t9ObC+SossVBMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="todo.js"></script>
+</body>
+
+</html>
